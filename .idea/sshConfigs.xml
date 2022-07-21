@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="daupm.es" id="5e6c086f-d611-4bcd-8285-4db8fd225c41" port="22" nameFormat="DESCRIPTIVE" username="daupm" />
+    </configs>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="cc314773-e15c-4655-8a97-8c57fddd6100" name="faqs.daupm.es" url="https://faqs.daupm.es">
+        <fileTransfer rootFolder="/var/www/vhosts/daupm.es/faqs.daupm.es" accessType="SFTP" host="daupm.es" port="22" sshConfigId="5e6c086f-d611-4bcd-8285-4db8fd225c41" sshConfig="daupm@daupm.es:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
