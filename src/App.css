@@ -1,6 +1,7 @@
 * {
   font-family: 'Open Sans', sans-serif;
   color: black;
+  scroll-behavior: smooth;
 }
 
 .App {
@@ -86,3 +87,18 @@
   background-color: white;
 }
 
+.menutile {
+  padding: 0 20px;
+  font-weight: 600;
+  line-height: 50px;
+  text-align: start;
+  width: 200px;
+  height: 50px;
+  background-color: #3f4348;
+  box-shadow: 0 0 5px gray;
+  border-bottom: solid 1px #7e868f;
+}
+
+.menutile:hover {
+  background-color: #565c63;
+}

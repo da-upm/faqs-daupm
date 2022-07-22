@@ -11,7 +11,7 @@ function FAQs(props) {
                         marginTop: 32,
                         marginBottom: 19,
                         color: '#bebebf'
-                    }}>{section.title.toUpperCase()}</h2>
+                    }} id={section.title}>{section.title.toUpperCase()}</h2>
                     {
                         section.faqs.map((faq, i) => {
                             return <FAQ key={i} title={faq.title} content={faq.content}/>

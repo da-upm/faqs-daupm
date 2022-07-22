@@ -1,8 +1,13 @@
+import MenuTile from "./MenuTile";
+
 function Menu() {
     return (
-        <div style={{position: 'sticky', top: 0}}>
-            <p>Sidebar menu</p>
-            <p>STICKY TEST</p>
+        <div style={{position: 'sticky', top: 20}}>
+            <MenuTile section="Evaluación"/>
+            <MenuTile section="Matriculación"/>
+            <MenuTile section="Área TIC"/>
+            <MenuTile section="Inglés en la UPM"/>
+            <MenuTile section="Bibliotecas"/>
         </div>
     );
 }
