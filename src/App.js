@@ -6,21 +6,35 @@ import Col from 'react-bootstrap/Col';
 import FAQs from "./components/FAQs";
 import Menu from "./components/Menu";
 import {faqs} from './faqs';
+import Search from "./components/Search";
+import {useState} from "react";
 
 function App() {
+    let [searchText, setSearchText] = useState("");
+    const handleSearchTextChange = (event) => {
+        setSearchText(event.target.value)
+    };
+
     return (
-        <Container style={{padding: 0, backgroundColor: '#f2f2f2'}} fluid>
+        <Container fluid style={{padding: 0}}>
             <Row>
                 <Col>
                     <Header/>
                 </Col>
             </Row>
-            <Row style={{marginTop: 30, marginLeft: 250, marginRight: 250}}>
+            <Row style={{marginTop: 30}}>
+                <Col md={4} />
+                <Col md={4}>
+                    <Search handleSearchTextChange={handleSearchTextChange} />
+                </Col>
+                <Col md={4} />
+            </Row>
+            <Row style={{marginLeft: 250, marginRight: 250}}>
                 <Col md={2}>
                     <Menu />
                 </Col>
                 <Col md={10}>
-                    <FAQs faqs={faqs} />
+                    <FAQs faqs={faqs} searchText={searchText} />
                 </Col>
             </Row>
         </Container>
