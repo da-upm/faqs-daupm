@@ -13,9 +13,7 @@ function FAQ(props) {
             </div>
             {
                 expanded &&
-                <div className="faq-content">
-                    {props.content}
-                </div>
+                <div className="faq-content" dangerouslySetInnerHTML={{__html: props.content}} />
             }
         </div>
     );
