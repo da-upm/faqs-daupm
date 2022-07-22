@@ -4,10 +4,6 @@
   scroll-behavior: smooth;
 }
 
-p {
-  margin-bottom: 0 !important;
-}
-
 .container-fluid > .row {
   margin-left: 0;
   margin-right: 0;
@@ -68,4 +64,8 @@ p {
 
 .menutile:hover {
   background-color: #565c63;
+}
+
+.menutile p {
+  margin-bottom: 0 !important;
 }
