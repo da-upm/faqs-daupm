@@ -25,7 +25,7 @@ function FAQs(props) {
                     <h2 style={{
                         fontSize: 13,
                         fontWeight: 'bold',
-                        marginTop: 32,
+                        marginTop: 20,
                         marginBottom: 19,
                         color: '#bebebf'
                     }} id={section.title}>{section.title.toUpperCase()}</h2>

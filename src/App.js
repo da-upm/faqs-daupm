@@ -16,28 +16,32 @@ function App() {
     };
 
     return (
-        <Container fluid style={{padding: 0}}>
-            <Row>
-                <Col>
-                    <Header/>
-                </Col>
-            </Row>
-            <Row style={{marginTop: 30}}>
-                <Col md={4} />
-                <Col md={4}>
-                    <Search handleSearchTextChange={handleSearchTextChange} />
-                </Col>
-                <Col md={4} />
-            </Row>
-            <Row style={{marginLeft: 250, marginRight: 250}}>
-                <Col md={2}>
-                    <Menu />
-                </Col>
-                <Col md={10}>
-                    <FAQs faqs={faqs} searchText={searchText} />
-                </Col>
-            </Row>
-        </Container>
+        <div>
+            <Container fluid style={{padding: 0}}>
+                <Row>
+                    <Col>
+                        <Header/>
+                    </Col>
+                </Row>
+            </Container>
+            <Container style={{padding: 0}}>
+                <Row style={{marginTop: 20, marginBottom: 0}}>
+                    <Col md={4} />
+                    <Col md={4}>
+                        <Search handleSearchTextChange={handleSearchTextChange} />
+                    </Col>
+                    <Col md={4} />
+                </Row>
+                <Row>
+                    <Col md={2}>
+                        <Menu />
+                    </Col>
+                    <Col md={10}>
+                        <FAQs faqs={faqs} searchText={searchText} />
+                    </Col>
+                </Row>
+            </Container>
+        </div>
     );
 }
 

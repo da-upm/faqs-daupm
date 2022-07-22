@@ -2,7 +2,7 @@ import MenuTile from "./MenuTile";
 
 function Menu() {
     return (
-        <div style={{position: 'sticky', top: 20}}>
+        <div style={{position: 'sticky', top: 30, marginTop: 20}}>
             <MenuTile section="Evaluación"/>
             <MenuTile section="Matriculación"/>
             <MenuTile section="Área TIC"/>
