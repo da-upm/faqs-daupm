@@ -1,3 +1,8 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +41,48 @@
     transform: rotate(360deg);
   }
 }
+
+.faq {
+  box-shadow: 0 0 5px gray;
+  margin-bottom: 6px;
+}
+
+.faq:hover {
+  box-shadow: 0 0 10px #00509b;
+}
+
+.faq-header {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  background-color: #ffffff;
+  font-weight: bold;
+  padding: 18px;
+  cursor: pointer;
+}
+
+.faq-header > * {
+  vertical-align:middle;
+}
+
+.faq-title {
+  float: left;
+  font-size: 25px;
+  font-weight: 300;
+  color: #00509b;
+}
+
+.faq-arrow {
+  float: right;
+  height: 37px;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.faq-content {
+  padding: 18px;
+  background-color: white;
+}
+
