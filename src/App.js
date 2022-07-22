@@ -1,6 +1,6 @@
 import './App.css';
 import Header from "./components/Header";
-import Test from "./components/Test";
+import Acordeon from "./components/Acordeon";
 
 function App() {
 
@@ -36,7 +36,7 @@ function App() {
             <Header/>
             {
                 model.map((item, i) => {
-                    return <Test key={i} content={item.content}/>
+                    return <Acordeon title={i} content={item.content}/>
                 })
             }
         </div>
