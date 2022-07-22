@@ -2,7 +2,7 @@ import {useState} from "react";
 import './Acordeon.css';
 
 function Acordeon(props) {
-    let [expanded, setExpanded] = useState(false);
+    let [expanded, setExpanded] = useState(true);
     const handleExpansion = () => expanded = setExpanded(!expanded);
 
     if (expanded) {
@@ -27,4 +27,4 @@ function Acordeon(props) {
     );
 }
 
-export default Acordeon
+export default Acordeon;
