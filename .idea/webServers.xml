@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="cc314773-e15c-4655-8a97-8c57fddd6100" name="faqs.daupm.es" url="https://faqs.daupm.es">
-        <fileTransfer rootFolder="/var/www/vhosts/daupm.es/faqs.daupm.es" accessType="SFTP" host="daupm.es" port="22" sshConfigId="5e6c086f-d611-4bcd-8285-4db8fd225c41" sshConfig="daupm@daupm.es:22 password">
+      <webServer id="5c016e5b-4ebe-4fe9-9696-79f4644bb20b" name="faqs.daupm.es" url="https://faqs.daupm.es">
+        <fileTransfer rootFolder="/var/www/vhosts/daupm.es/faqs.daupm.es" accessType="SFTP" host="faqs.daupm.es" port="22" sshConfigId="075685b9-2b46-48a9-a4db-059eaa251335" sshConfig="daupm@faqs.daupm.es:22 password">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
