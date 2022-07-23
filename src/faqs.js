@@ -433,14 +433,6 @@ la prueba</b>. Además, <b>si la asignatura cuenta con un examen final</b>, las 
                 title: "¿Con que bibliotecas cuenta la UPM?",
                 content:`
                 <div>
-                    <p>Actualmente la biblioteca UPM cuenta con 17 puntos de servicio. Puedes consultar toda la información sobre los mismos (datos de contacto, página web particular, mapa con las ubicaciones, etc.) en la web de la UPM.</p>
-                </div>
-`
-            },
-            {
-                title: "Antes de empezar el examen, deben indicarnos...",
-                content:`
-                <div>
                     <p>Actualmente la biblioteca UPM cuenta con 17 puntos de servicio. Puedes consultar toda la información sobre los mismos (datos de contacto, página web particular, mapa con las ubicaciones, etc.) en la <a href="http://www.upm.es/UPM/Biblioteca/NuestraBiblioteca/BibliotecasCentros" target="_blank">web de la UPM</a></p>
                 </div>
 `
@@ -463,6 +455,19 @@ la prueba</b>. Además, <b>si la asignatura cuenta con un examen final</b>, las 
         <li><a href="http://www.upm.es/UPM/Bibliotecauniversitaria/bucs" target="_blank">Bib. Campus Sur</a>.</li>
     </ul>
 </div>
+`
+            },
+            {
+                title: "¿Que servicios me ofrece la biblioteca UPM?",
+                content:`
+                <div>
+                    <p>Podéis consultar toda la carta de servicios que ofrecen las bibliotecas de la UPM en la <a href="http://www.upm.es/UPM/Biblioteca/ServiciosUsuario/Estudiantes" target="_blank">página web</a>.</p>
+                    <p>También en las <b>redes sociales</b> de la biblioteca puedes encontrar información actualizada y de utilidad sobre los distintos servicios que se proporcionan:</p>
+                    <ul>
+                        <li>Facebook: <a href="https://www.facebook.com/biblioUPM" target="_blank">biblioUPM</a>.</li>
+                        <li>Twitter: <a href="https://twitter.com/biblioUPM" target="_blank">@biblioUPM</a>.</li>
+                    </ul>
+                </div>
 `
             }
         ]
