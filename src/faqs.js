@@ -166,10 +166,18 @@ la prueba</b>. Además, <b>si la asignatura cuenta con un examen final</b>, las 
         title: "Matriculación",
         faqs: [
             {
+                title: "¿Que puedo hacer si no me han admitido en la titulación que quería?",
+                content:`
+  <div>
+      <p>Puedes apuntarte a la lista de espera en <a href="https://admision.upm.es/grado/procedimientos/lista_espera" target="_blank">este enlace</a>, y consultar los resultados de la misma en <a href="https://tramitesestudiantes.upm.es/lista_espera" target="_blank">este otro enlace</a>.</p>
+  </div>
+`
+            },
+            {
                 title: "¿Cómo funciona la matrícula en la UPM?",
                 content:`
   <div>
-      <p>La UPM tiene un modelo de matriculación anual. Los estudiantes realizan la matrícula del curso completo (primer y segundo semestre) en Julio. No obstante, antes de comenzar el segundo semestre, existe un periodos extraordinarios relacionados con la matriculación:</p>
+      <p>La UPM tiene un modelo de matriculación anual. Los estudiantes realizan la matrícula del curso completo (primer y segundo semestre) en Julio. No obstante, antes de comenzar el segundo semestre, existen unos periodos extraordinarios relacionados con la matriculación:</p>
       <ul>
           <li>Un periodo de desmatriculación, que permite al estudiante desmatricularse de hasta 12 ECTS con devolución del 100% de las tasas.</li>
           <li>Un periodo de matriculación extraordinaria, que permite al estudiante ampliar la matrícula en los siguientes casos:</li>
@@ -463,7 +471,7 @@ la prueba</b>. Además, <b>si la asignatura cuenta con un examen final</b>, las 
 `
             },
             {
-                title: "¿Que servicios me ofrece la biblioteca UPM?",
+                title: "¿Qué servicios me ofrece la biblioteca UPM?",
                 content:`
                 <div>
                     <p>Podéis consultar toda la carta de servicios que ofrecen las bibliotecas de la UPM en la <a href="http://www.upm.es/UPM/Biblioteca/ServiciosUsuario/Estudiantes" target="_blank">página web</a>.</p>
