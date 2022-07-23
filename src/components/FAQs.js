@@ -21,12 +21,11 @@ function FAQs(props) {
     return (
         filteredFaqs.map((section) => {
             return (
-                <div key={section.id}>
+                <div key={section.id} style={{marginTop: 20, marginBottom: 40}}>
                     <h2 style={{
                         fontSize: 13,
                         fontWeight: 'bold',
-                        marginTop: 20,
-                        marginBottom: 19,
+                        marginBottom: 20,
                         color: '#bebebf'
                     }} id={section.title}>{section.title.toUpperCase()}</h2>
                     {
