@@ -1,13 +1,13 @@
 import MenuTile from "./MenuTile";
 
-function Menu() {
+function Menu(props) {
     return (
         <div style={{position: 'sticky', top: 30, marginTop: 20}}>
-            <MenuTile section="Evaluación"/>
-            <MenuTile section="Matriculación"/>
-            <MenuTile section="Área TIC"/>
-            <MenuTile section="Inglés en la UPM"/>
-            <MenuTile section="Bibliotecas"/>
+        {
+            props.faqs.map((section, i) => {
+                return <MenuTile key={i} title={section.title} section={section.slug}/>
+            })
+        }
         </div>
     );
 }

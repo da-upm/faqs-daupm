@@ -34,7 +34,7 @@ function App() {
                 </Row>
                 <Row>
                     <Col md={2}>
-                        <Menu />
+                        <Menu faqs={faqs} />
                     </Col>
                     <Col md={10}>
                         <FAQs faqs={faqs} searchText={searchText} />

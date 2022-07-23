@@ -1,6 +1,7 @@
 export const faqs = [
     {
         id: 0,
+        slug: 'evaluacion',
         title: "Evaluación",
         faqs: [
             {
@@ -161,6 +162,7 @@ la prueba</b>. Además, <b>si la asignatura cuenta con un examen final</b>, las 
     },
     {
         id: 1,
+        slug: 'matriculacion',
         title: "Matriculación",
         faqs: [
             {
@@ -243,6 +245,7 @@ la prueba</b>. Además, <b>si la asignatura cuenta con un examen final</b>, las 
     },
     {
         id: 2,
+        slug: 'tic',
         title: "Área TIC",
         faqs: [
             {
@@ -305,6 +308,7 @@ la prueba</b>. Además, <b>si la asignatura cuenta con un examen final</b>, las 
     },
     {
         id: 3,
+        slug: 'ingles',
         title: "Inglés en la UPM",
         faqs: [
             {
@@ -427,6 +431,7 @@ la prueba</b>. Además, <b>si la asignatura cuenta con un examen final</b>, las 
     },
     {
         id: 4,
+        slug: 'bibliotecas',
         title: "Bibliotecas",
         faqs: [
             {

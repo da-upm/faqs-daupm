@@ -1,4 +1,5 @@
 import FAQ from "./FAQ";
+import sha256 from 'crypto-js/sha256';
 
 function FAQs(props) {
     const extractReadableContent = (html) => {
@@ -27,10 +28,10 @@ function FAQs(props) {
                         fontWeight: 'bold',
                         marginBottom: 20,
                         color: '#bebebf'
-                    }} id={section.title}>{section.title.toUpperCase()}</h2>
+                    }} id={section.slug}>{section.title.toUpperCase()}</h2>
                     {
                         filterFaqs(section, props.searchText).map((faq, i) => {
-                            return <FAQ key={i} title={faq.title} content={faq.content}/>
+                            return <FAQ key={sha256(faq.title)} title={faq.title} content={faq.content}/>
                         })
                     }
                 </div>
