@@ -501,9 +501,9 @@ la prueba</b>. Además, <b>si la asignatura cuenta con un examen final</b>, las 
         title: "¿En qué consiste la Beca del Ministerio?",
         content: `
     <p>
-        La llamada Beca del Ministerio (o MEC, o MEFP) es una beca de ámbito estatal de caracter socioeconómico y de rendimiento académico. Para poder optar a esta beca tienes unos requisitos
-        que dependen de criterios socioeconómicos vinculados a tu unidad familiar que puedes consultar en <a href="https://www.becaseducacion.gob.es/becas-y-ayudas/universidad-grado-master/que-necesitas.html#requisitos-economicos">este enlace</a> y al tipo de estudios que estés cursando. Si eres de primer curso, no se tiene en cuenta el rendimiento académico estandar y
-        se tiene en cuenta el rendimiento académico de la EBAU, sin tener en cuenta la fase especifica. La información concreta acerca de los requisitos académicos los puedes encontrar detallados en 
+        La llamada Beca del Ministerio (o MEC, o MEFP) es una beca de ámbito estatal de <b>caracter socioeconómico y de rendimiento académico</b>. Para poder optar a esta beca tienes unos requisitos
+        que dependen de <b>criterios socioeconómicos</b> vinculados a tu unidad familiar que puedes consultar en <a href="https://www.becaseducacion.gob.es/becas-y-ayudas/universidad-grado-master/que-necesitas.html#requisitos-economicos">este enlace</a> y al tipo de estudios que estés cursando. Si eres de primer curso, no se tiene en cuenta el rendimiento académico estandar y
+        se tiene en cuenta el rendimiento académico de la EBAU, sin tener en cuenta la fase especifica. La información concreta acerca de los <b>requisitos académicos</b> los puedes encontrar detallados en 
         <a href="https://www.becaseducacion.gob.es/becas-y-ayudas/universidad-grado-master/que-necesitas.html#requisitos-academicos">este enlace</a>.
     </p>
     <p>
