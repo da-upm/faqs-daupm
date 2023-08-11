@@ -198,7 +198,7 @@ la prueba</b>. Además, <b>si la asignatura cuenta con un examen final</b>, las 
           </ul>
       </ul>
       <p>Fuera de esos periodos, solo se podrán matricular prácticas externas curriculares y modificaciones en asignaturas de programas de movilidad.</p>
-      <img src="/matriculacion-upm.png" style="max-width:100%; max-height:100%;"></img>
+      <img alt="Gráfico informativo sobre la matriculación en la UPM y sus requisitos" src="/matriculacion-upm.png" style="max-width:100%; max-height:100%;">
       <a href="https://www.upm.es/sfs/Rectorado/Vicerrectorado%20de%20Alumnos/Informacion/Normativa/2022_23_Normativa%20Matriculacion_CG_26_5_22.pdf"
          target="_blank" rel="noreferrer">Artículos 6 y siguientes, Normativa de Matriculación</a>
   </div>
@@ -408,7 +408,7 @@ la prueba</b>. Además, <b>si la asignatura cuenta con un examen final</b>, las 
     <h5 style="color: #00509b">(ESOL) .</h5>
     <h5 style="color: #00509b">XIX. LANGUAGECERT USAL ESPRO (ANTERIORMENTE BULATS).</h5>
     <h5 style="color: #00509b">XX. CERTIFICATE IN ESOL INTERNATIONAL FOUR SKILLS (LRN LEVEL 1)</h5>
-    <p style="font-size: 13"><i>XXI. Otros títulos y/o certificados deberán ser sometidos a estudio. No obstante, para ser considerados los certificados deberán venir acompañados de la equivalencia al MCERL (B2, C1 o C2).</i></p>
+    <p style="font-size: 13px"><i>XXI. Otros títulos y/o certificados deberán ser sometidos a estudio. No obstante, para ser considerados los certificados deberán venir acompañados de la equivalencia al MCERL (B2, C1 o C2).</i></p>
     <p>No obstante, podrás consultar siempre el listado actualizado de títulos en <a href="http://www.etsist.upm.es/escuela/departamentos/LING/acreditacion-b2-en-lengua-inglesa" target="_blank">este enlace</a>.</p>
     <p>Así mismo, puedes obtener más información sobre los certificados en <a href="http://www.etsist.upm.es/uploaded/592/CRUE-Certificados%20para%20la%20acreditaci%C3%B3n%20de%20niveles%20de%20ingl%C3%A9s.pdf" target="_blank">este otro enlace</a>.</p>
 </div>
@@ -501,12 +501,13 @@ la prueba</b>. Además, <b>si la asignatura cuenta con un examen final</b>, las 
         title: "¿En qué consiste la Beca del Ministerio?",
         content: `
     <p>
-        La llamada Beca del Ministerio (o MEC, o MEFP) es una beca de ámbito estatal de caracter socieconómico y de rendimiento académico. Para poder optar a esta beca
-        necesitas tener superados un 65% de los créditos matriculados en un año académico en cualquiera de sus convocatorias (ordinaria o extraordinaria). Para no tener que devolver
-        la beca necesitas superar un 40% de los créditos matriculados.
+        La llamada Beca del Ministerio (o MEC, o MEFP) es una beca de ámbito estatal de caracter socioeconómico y de rendimiento académico. Para poder optar a esta beca tienes unos requisitos
+        que dependen de criterios socioeconómicos vinculados a tu unidad familiar que puedes consultar en <a href="https://www.becaseducacion.gob.es/becas-y-ayudas/universidad-grado-master/que-necesitas.html#requisitos-economicos">este enlace</a> y al tipo de estudios que estés cursando. Si eres de primer curso, no se tiene en cuenta el rendimiento académico estandar y
+        se tiene en cuenta el rendimiento académico de la EBAU, sin tener en cuenta la fase especifica. La información concreta acerca de los requisitos académicos los puedes encontrar detallados en 
+        <a href="https://www.becaseducacion.gob.es/becas-y-ayudas/universidad-grado-master/que-necesitas.html#requisitos-academicos">este enlace</a>.
     </p>
     <p>
-        Para más información sobre la Beca del Ministerio, puedes visitar <a href="https://www.estudiantes.creup.es/becas" target="_blank">esta página de CREUP</a>
+        Para más información sobre las cuantias otorgadas por la Beca del Ministerio, puedes visitar <a href="https://www.estudiantes.creup.es/becas" target="_blank">esta página de CREUP</a>
     </p>
 `,
       },
