@@ -281,9 +281,9 @@ la prueba</b>. Además, <b>si la asignatura cuenta con un examen final</b>, las 
         content: `
 <div>
     <p>
-    EscritorioUPM es un servicio de la UPM que permite a los y las estudiantes acceder a un escritorio virtual desde cualquier dispositivo, con el que se puede acceder a los recursos de la universidad (aplicaciones y/o recursos solo disponibles en esta) desde cualquier lugar.
-    Es totalmente gratis y puedes acceder a él usando tu cuenta de correo UPM a través de <a href="https://escritorio.upm.es/" target="_blank">escritorio.upm.es</a>.    
+    EscritorioUPM es un servicio de la UPM que permite a los y las estudiantes acceder a un escritorio virtual desde cualquier dispositivo, con el que se puede acceder a los recursos de la universidad (aplicaciones y/o recursos solo disponibles en esta) desde cualquier lugar.    
 </p>
+<p>Es totalmente gratis y puedes acceder a él usando tu cuenta de correo UPM a través de <a href="https://escritorio.upm.es/" target="_blank">escritorio.upm.es</a>.</p>
 `,
       },
       {
