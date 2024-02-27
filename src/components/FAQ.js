@@ -20,7 +20,7 @@ function FAQ(props) {
                 <Col>
                     {
                         expanded &&
-                        <div className="faq-content" dangerouslySetInnerHTML={{__html: props.content}} />
+                        <div className="faq-content" dangerouslySetInnerHTML={{__html: props.text}} />
                     }
                 </Col>
             </Row>

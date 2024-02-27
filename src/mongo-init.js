@@ -3,7 +3,7 @@ db = db.getSiblingDB('faqsMongo');
 
 //Now, we will update this DB with the corresponding html
 db.mycollection.insert({
-    name: 'hmtl',
+    name: 'html',
     par: [
         {
             id: 1,
@@ -220,7 +220,7 @@ db.mycollection.insert({
                 },
                 {
                     title: "¿Puedo cancelar asignaturas sueltas de la matrícula?",
-                    content: `
+                    text: `
                     <div>
                         <p>Sí, <b>se devolverá el 100% de las tasas</b> de las asignaturas canceladas cuando la solicitud de cancelación se realice <b>dentro de los cinco días hábiles siguientes a la fecha de matriculación</b>. <b>A partir del sexto día hábil</b> desde la fecha de matriculación, <b>se devolverá el 50% de las tasas</b> de las asignaturas canceladas dentro del plazo.</p>
                         <p>Las asignaturas canceladas <b>no correrán convocatoria</b>.</p>
@@ -434,7 +434,7 @@ db.mycollection.insert({
             },
             {
                 title: "¿En que fechas son las pruebas del SAI?",
-                content: `
+                text: `
                 <div>
                     <p>En el curso académico 2018-2019, las pruebas se realizarán en las siguientes fechas:</p>
                     <ul>
@@ -525,12 +525,3 @@ db.mycollection.insert({
             ]
           }]
     });
-
-    //Now, a user with only read privileges will be created
-    db.createUser({
-        user: 'reader',
-        pwd: 'contraseñaTemporalBombardeenFrancia',
-        roles: [
-            { role: 'read', db: 'faqsMongo' }
-        ]
-      });
