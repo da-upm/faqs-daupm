@@ -9,9 +9,7 @@ import Search from "./components/Search";
 import {useState} from "react";
 //We will connect to our MongoDB using mongoose, and the data given in the environmental vars
 const mongoose = require('mongoose');
-const dbUsername = process.env.db_genusername;
-const dbPassword = process.env.db_genpassword;
-const db = mongoose.connect('mongodb://'+dbPassword+':'+dbPassword+'@h138.100.153.100:8081/faqsDAUPMcosas/faqsMongo').
+const db = mongoose.connect(process.env.DB_URI).
 catch(error => console.log("Error al conectarse a la abse de datos."));
 let faqs = db.collection('myCollection').find();
 
