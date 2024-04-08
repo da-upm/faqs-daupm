@@ -1,6 +1,13 @@
 //New DB called 'faqsMongo', which includes all the html necessary text
-db = db.getSiblingDB('faqsMongo');
-
+db = db.getSiblingDB('faqs');
+db.auth(process.env.MONGO_INITDB_ROOT_USERNAME, process.env.MONGO_INITDB_ROOT_PASSWORD);
+db.createUser({
+    user: process.env.MONGO_INITDB_ROOT_USERNAME,
+    pwd: process.env.MONGO_INITDB_ROOT_PASSWORD,
+    roles: [
+      { role: "dbOwner", db: "faqs" }
+    ]
+  });
 //Now, we will update this DB with the corresponding html
 db.mycollection.insert({
     name: 'html',
@@ -525,3 +532,4 @@ db.mycollection.insert({
             ]
           }]
     });
+
