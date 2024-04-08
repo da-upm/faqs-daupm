@@ -5,14 +5,27 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import FAQs from "./components/FAQs";
 import Menu from "./components/Menu";
-import {faqs} from './faqs';
 import Search from "./components/Search";
 import {useState} from "react";
 
 function App() {
     let [searchText, setSearchText] = useState("");
+    let [faqs, setFaqs] = useState({}); //creo que esto hace que sea un solo "objeto" json(?)
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await fetch('http://127.0.0.1:3000/api/get');//RECUERDA CONFIGURAR LA API PARA EL PUERTO 3000
+                const data = await response.json();
+                setFaqs(data);
+            } catch (error) {
+                console.error('Error fetching FAQs:', error);
+            }
+        };
+        fetchData();
+    }, []);
+
     const handleSearchTextChange = (event) => {
-        setSearchText(event.target.value)
+        setSearchText(event.target.value);
     };
 
     return (
