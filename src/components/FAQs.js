@@ -10,7 +10,7 @@ function FAQs(props) {
 
     const filterFaqs = (section, text) => {
         return section.faqs.filter((faq) => {
-            return faq.title.toLowerCase().includes(text.toLowerCase()) || extractReadableContent(faq.content).toLowerCase().includes(text.toLowerCase());
+            return faq.title.toLowerCase().includes(text.toLowerCase()) || extractReadableContent(faq.text).toLowerCase().includes(text.toLowerCase());
         })
     };
 
@@ -31,7 +31,7 @@ function FAQs(props) {
                     }} id={section.slug}>{section.title.toUpperCase()}</h2>
                     {
                         filterFaqs(section, props.searchText).map((faq, i) => {
-                            return <FAQ key={sha256(faq.title)} title={faq.title} content={faq.content}/>
+                            return <FAQ key={sha256(faq.title)} title={faq.title} content={faq.text}/>
                         })
                     }
                 </div>

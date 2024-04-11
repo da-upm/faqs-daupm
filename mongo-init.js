@@ -1,22 +1,15 @@
-//New DB called 'faqsMongo', which includes all the html necessary text
 db = db.getSiblingDB('faqs');
-db.auth(process.env.MONGO_INITDB_ROOT_USERNAME, process.env.MONGO_INITDB_ROOT_PASSWORD);
-db.createUser({
-    user: process.env.MONGO_INITDB_ROOT_USERNAME,
-    pwd: process.env.MONGO_INITDB_ROOT_PASSWORD,
-    roles: [
-      { role: "dbOwner", db: "faqs" }
-    ]
-  });
+console.log('hola')
+//db.auth(process.env.MONGO_INITDB_ROOT_USERNAME, process.env.MONGO_INITDB_ROOT_PASSWORD);
 //Now, we will update this DB with the corresponding html
 db.mycollection.insert({
     name: 'html',
-    par: [
+    faqs: [
         {
-            id: 1,
+            id: 0,
             slug: "evaluacion",
             title: "Evaluación",
-            faqss: [{
+            faqs: [{
                 title: "Antes de empezar el examen, deben indicarnos...",
                 text: `
                 <div>
@@ -167,12 +160,11 @@ db.mycollection.insert({
             },
             ]
         },
-        //Y el puto tiempo q estoy pasando con la indentación de esto para q al final no sirva x tener html q...
         {
-            id: 2,
+            id: 1,
             slug: "matriculacion",
             title: "Matriculación",
-            faqss:[
+            faqs:[
                 {
                     title:"¿Que puedo hacer si no me han admitido en la titulación que quería?",
                     text: `
@@ -260,10 +252,10 @@ db.mycollection.insert({
             ]
         },
         {
-            id: 3,
+            id: 2,
             slug: "tic",
             title: "Área TIC",
-            faqss: [
+            faqs: [
             {
                 title: "UPMapp",
                 text: `
@@ -332,10 +324,10 @@ db.mycollection.insert({
           ]
         },
         {
-            id: 4,
+            id: 3,
             slug: "ingles",
             title: "Inglés en la UPM",
-            faqss: [
+            faqs: [
             {
                 title: "¿Que debo saber sobre el inglés en la UPM?",
                 text: `
@@ -458,7 +450,7 @@ db.mycollection.insert({
             id: 4,
             slug: "bibliotecas",
             title: "Bibliotecas",
-            faqss: [
+            faqs: [
             {
                 title: "¿Con que bibliotecas cuenta la UPM?",
                 text: `

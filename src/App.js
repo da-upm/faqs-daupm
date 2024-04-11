@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 import FAQs from "./components/FAQs";
 import Menu from "./components/Menu";
 import Search from "./components/Search";
-import {useState} from "react";
+import React, { useEffect, useState } from "react";
 
 function App() {
     let [searchText, setSearchText] = useState("");
@@ -14,7 +14,9 @@ function App() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('http://127.0.0.1:3000/api/get');//RECUERDA CONFIGURAR LA API PARA EL PUERTO 3000
+                console.log('hola')
+                const response = await fetch('http://api:3000/api/get');//RECUERDA CONFIGURAR LA API PARA EL PUERTO 3000
+                console.log(response)
                 const data = await response.json();
                 setFaqs(data);
             } catch (error) {
