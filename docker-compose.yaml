@@ -4,6 +4,8 @@ services:
     container_name: faqs-daupm
     ports:
       - "3000:3000"
+    networks:
+      - rioseco
 networks:
   rioseco:
     external: true
