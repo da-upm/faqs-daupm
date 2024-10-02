@@ -317,7 +317,7 @@ la prueba</b>. Además, <b>si la asignatura cuenta con un examen final</b>, las 
         content: `
   <div>
       <p>Desde la Delegación de Alumnos ponemos a disposición de los y las estudiantes una guía de configuración del correo UPM en Gmail.</p>
-      <p>Puede descargarse <a href="https://daupm.es/wp-content/uploads/2017/08/CorreoUPMGmail.pdf" target="_blank">en este enlace</a>.</p>
+      <p>Puede descargarse <a href="https://da.upm.es/wp-content/uploads/2017/08/CorreoUPMGmail.pdf" target="_blank">en este enlace</a>.</p>
   </div>
 `,
       },
