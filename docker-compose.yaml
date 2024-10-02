@@ -1,6 +1,7 @@
 services:
   web:
     build: .
+    container_name: faqs-daupm
     ports:
       - "3000:3000"
 networks:
